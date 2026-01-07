@@ -5,7 +5,7 @@ import { H1, H4 } from '../typography'
 export default function PlaygroundContent() {
   return (
     <>
-      <div className='container mx-auto py-10 space-y-8'>
+      <div className='py-10 space-y-10 max-w-7xl mx-auto'>
         <H1 className='text-4xl font-bold font-gabarito'>Welcome to Project Creo</H1>
         <div className='flex gap-4'>
           <Button variant={'default'}>Button Test</Button>

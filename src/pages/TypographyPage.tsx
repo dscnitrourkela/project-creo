@@ -26,7 +26,7 @@ function ClassName({ children }: { children: string }) {
 
 export default function TypographyPage() {
   return (
-    <div className='container mx-auto py-10 space-y-10'>
+    <div className='py-10 space-y-10 max-w-7xl mx-auto'>
       <div>
         <H1>Typography System</H1>
         <Lead>A showcase of the typography styles available in Project Creo.</Lead>
