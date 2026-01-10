@@ -1,5 +1,8 @@
 import { Suspense, lazy } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { ReactLenis } from 'lenis/react'
+import GlobalLoader from './components/ui/GlobalLoader'
+import SEO from './components/seo/SEO'
 
 const TypographyPage = lazy(() => import('./pages/TypographyPage'))
 const HomePage = lazy(() => import('./pages/HomePage'))
@@ -9,17 +12,21 @@ const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
 
 function App() {
   return (
-    <Router>
-      <Suspense fallback={<div>Loading...</div>}>
-        <Routes>
-          <Route path='/' element={<HomePage />} />
-          <Route path='/typography' element={<TypographyPage />} />
-          <Route path='/playground' element={<Playground />} />
-          <Route path='/upload' element={<UploadPage />} />
-          <Route path='*' element={<NotFoundPage />} />
-        </Routes>
-      </Suspense>
-    </Router>
+    <>
+      <Router>
+        <SEO />
+        <ReactLenis root />
+        <Suspense fallback={<GlobalLoader />}>
+          <Routes>
+            <Route path='/' element={<HomePage />} />
+            <Route path='/typography' element={<TypographyPage />} />
+            <Route path='/playground' element={<Playground />} />
+            <Route path='/upload' element={<UploadPage />} />
+            <Route path='*' element={<NotFoundPage />} />
+          </Routes>
+        </Suspense>
+      </Router>
+    </>
   )
 }
 

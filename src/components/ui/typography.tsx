@@ -154,3 +154,27 @@ export function Fort({ className, children, ...props }: React.HTMLAttributes<HTM
     </div>
   )
 }
+
+export function Obvia({ className, children, ...props }: React.HTMLAttributes<HTMLDivElement>) {
+  return (
+    <div className={cn('font-obvia', className)} {...props}>
+      {children}
+    </div>
+  )
+}
+
+export function Sailec({ className, children, ...props }: React.HTMLAttributes<HTMLDivElement>) {
+  return (
+    <div className={cn('font-sailec', className)} {...props}>
+      {children}
+    </div>
+  )
+}
+
+export function Termina({ className, children, ...props }: React.HTMLAttributes<HTMLDivElement>) {
+  return (
+    <div className={cn('font-termina', className)} {...props}>
+      {children}
+    </div>
+  )
+}

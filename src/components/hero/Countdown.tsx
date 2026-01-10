@@ -42,7 +42,7 @@ const Countdown = () => {
   }
 
   return (
-    <div className='flex items-center gap-4 text-white mt-4 font-fort'>
+    <div className='flex items-center gap-4 text-white mt-4 font-fort h-full'>
       <div className='flex flex-col items-center'>
         <span className='text-4xl md:text-6xl font-bold tracking-widest'>
           {formatNumber(timeLeft.days)}

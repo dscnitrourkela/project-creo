@@ -17,6 +17,27 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Obvia';
+  src: url('./assets/fonts/obvia-black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sailec';
+  src: url('./assets/fonts/Sailec Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Termina';
+  src: url('./assets/fonts/TerminaTest-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
 :root {
   font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
 
@@ -63,6 +84,11 @@
   --font-gabarito: 'Gabarito', sans-serif;
   --font-coral: 'Coral Colour', sans-serif;
   --font-fort: 'Fort Avenue', sans-serif;
+  --font-obvia: 'Obvia', sans-serif;
+  --font-sailec: 'Sailec', sans-serif;
+  --font-termina: 'Termina', sans-serif;
+
+  --breakpoint-lmd: 940px;
 
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);

@@ -13,6 +13,9 @@ import {
   Muted,
   Coral,
   Fort,
+  Obvia,
+  Sailec,
+  Termina,
 } from '@/components/ui/typography'
 import { Button } from '@/components/ui/button'
 
@@ -240,6 +243,39 @@ export default function TypographyPage() {
               <Fort className='text-4xl text-foreground'>
                 THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
               </Fort>
+            </div>
+          </div>
+
+          <div>
+            <Obvia className='text-6xl text-primary'>Obvia Font</Obvia>
+            <P>Used for display and impactful text (Black weight).</P>
+            <ClassName>font-obvia</ClassName>
+            <div className='mt-4 p-4 border rounded bg-secondary/20'>
+              <Obvia className='text-4xl text-foreground'>
+                The Quick Brown Fox Jumps Over The Lazy Dog
+              </Obvia>
+            </div>
+          </div>
+
+          <div>
+            <Sailec className='text-6xl text-primary'>Sailec Font</Sailec>
+            <P>Used for clean body text and UI elements (Medium weight).</P>
+            <ClassName>font-sailec</ClassName>
+            <div className='mt-4 p-4 border rounded bg-secondary/20'>
+              <Sailec className='text-4xl text-foreground'>
+                The Quick Brown Fox Jumps Over The Lazy Dog
+              </Sailec>
+            </div>
+          </div>
+
+          <div>
+            <Termina className='text-6xl text-primary'>Termina Font</Termina>
+            <P>Used for distinct headers and modern feel (Bold weight).</P>
+            <ClassName>font-termina</ClassName>
+            <div className='mt-4 p-4 border rounded bg-secondary/20'>
+              <Termina className='text-4xl text-foreground'>
+                The Quick Brown Fox Jumps Over The Lazy Dog
+              </Termina>
             </div>
           </div>
         </div>
