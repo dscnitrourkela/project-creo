@@ -8,4 +8,34 @@ const imgs = {
   phone: 'https://ik.imagekit.io/euurqxbuc/uploaded-asset_j5glyukks',
   textdsc: 'https://ik.imagekit.io/euurqxbuc/uploaded-asset_BIcd7QeHw',
 }
-export default imgs
+
+const emails = {
+  emailOne: 'designtabnitr@gmail.com',
+}
+
+const footerData = {
+  socials: {
+    instagram: {
+      url: 'https://www.instagram.com/designtab.nitr/',
+      handle: '@designtab',
+    },
+    email: {
+      address: emails.emailOne,
+      mailto: `mailto:${emails.emailOne}`,
+    },
+  },
+  contacts: [
+    {
+      name: 'SOMANATH MAHANTA',
+      phone: '+91 7008630917',
+      tel: 'tel:+917008630917',
+    },
+    {
+      name: 'ANKITA BEHERA',
+      phone: '+91 7853836381',
+      tel: 'tel:+917853836381',
+    },
+  ],
+}
+
+export { imgs, emails, footerData }
