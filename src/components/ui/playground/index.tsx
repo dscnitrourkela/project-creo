@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Button } from '../button'
 import { H1, H4 } from '../typography'
-import { FAQSection } from '@/components/FAQSection'
+import { FAQSection } from '@/components/faq'
 
 export default function PlaygroundContent() {
   return (

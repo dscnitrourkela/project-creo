@@ -1,4 +1,4 @@
-import boltImage from "@/assets/images/Bolt.png";
+import { faqImages } from "@/config/faq/images";
 
 interface BoltIconProps {
     className?: string;
@@ -9,7 +9,7 @@ interface BoltIconProps {
 export function BoltIcon({ className = "", flipped = false, style }: BoltIconProps) {
     return (
         <img
-            src={boltImage}
+            src={faqImages.bolt}
             alt="Bolt"
             className={className}
             style={{
@@ -19,4 +19,3 @@ export function BoltIcon({ className = "", flipped = false, style }: BoltIconPro
         />
     );
 }
-
