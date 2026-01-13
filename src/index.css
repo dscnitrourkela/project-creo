@@ -17,6 +17,27 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Obvia';
+  src: url('./assets/fonts/obvia-black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sailec';
+  src: url('./assets/fonts/Sailec Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Termina';
+  src: url('./assets/fonts/TerminaTest-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
 :root {
   font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
 
@@ -63,6 +84,11 @@
   --font-gabarito: 'Gabarito', sans-serif;
   --font-coral: 'Coral Colour', sans-serif;
   --font-fort: 'Fort Avenue', sans-serif;
+  --font-obvia: 'Obvia', sans-serif;
+  --font-sailec: 'Sailec', sans-serif;
+  --font-termina: 'Termina', sans-serif;
+
+  --breakpoint-lmd: 940px;
 
   /* Custom Creo colors */
   --color-creo-pink: #FF14B2;
@@ -149,4 +175,40 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
 }
