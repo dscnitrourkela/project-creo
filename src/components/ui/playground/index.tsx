@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Button } from '../button'
 import { H1, H4 } from '../typography'
+import { FAQSection } from '@/components/faq'
 
 export default function PlaygroundContent() {
   return (
@@ -19,6 +20,9 @@ export default function PlaygroundContent() {
         <H4 className=''>Add your components below</H4>
       </div>
       <div className='w-full border-b-2 border-black border-dashed'></div>
+
+      {/* FAQ Section Preview */}
+      <FAQSection />
     </>
   )
 }

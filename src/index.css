@@ -90,6 +90,10 @@
 
   --breakpoint-lmd: 940px;
 
+  /* Custom Creo colors */
+  --color-creo-pink: #FF14B2;
+  --color-creo-gray: #C6C6C6;
+
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
