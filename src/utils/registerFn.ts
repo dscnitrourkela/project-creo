@@ -1,8 +1,5 @@
-import { toast } from 'sonner'
+import { REGISTRATION_LINK } from '@/config/seo'
 
 export const registerFn = () => {
-  toast('Starting soon', {
-    description: 'Registration will be available shortly. Stay tuned!',
-    duration: 3000,
-  })
+  window.open(REGISTRATION_LINK, '_blank')
 }

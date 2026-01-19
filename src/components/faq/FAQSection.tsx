@@ -16,6 +16,7 @@ export function FAQSection() {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
+      id='faqs'
     >
       <div className=' pt-40 md:pt-60 ' />
 

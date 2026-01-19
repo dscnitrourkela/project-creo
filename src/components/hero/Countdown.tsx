@@ -8,8 +8,8 @@ interface TimeLeft {
 }
 
 const Countdown = () => {
-  // Set target date to Feb 1, 2026
-  const targetDate = new Date('2026-02-01T00:00:00').getTime()
+  // Set target date to Jan 31, 2026
+  const targetDate = new Date('2026-01-31T00:00:00').getTime()
 
   const calculateTimeLeft = (): TimeLeft => {
     const now = new Date().getTime()

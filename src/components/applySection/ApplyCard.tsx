@@ -33,7 +33,7 @@ function ApplyCard({ heading, tillDate, price, isActive, onHover }: cardProps) {
 
       <div className='relative z-10 flex flex-col p-5 pb-2'>
         <H4 className='flex flex-col font-fort'>{heading}</H4>
-        <P className='mt-0!'>{tillDate}</P>
+        {/* <P className='mt-0!'>{tillDate}</P> */}
       </div>
 
       <div className=' my-2'>

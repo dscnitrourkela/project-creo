@@ -25,6 +25,7 @@ export default function HomePage() {
       </div>
 
       <Hero />
+      <div className='w-full h-20 bg-linear-to-b from-transparent to-black -mt-20 relative z-40 pointer-events-none'></div>
       <About />
       <ApplySection />
       <EventDetails />

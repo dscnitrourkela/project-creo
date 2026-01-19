@@ -51,3 +51,6 @@ export const seo = {
     format: ['Talks', 'Workshops', 'Designathon', 'Exhibitions'],
   },
 }
+
+export const REGISTRATION_LINK =
+  'https://unstop.com/p/creo-designathon-2026-uiux-product-innovation-challenge-nit-rourkela-1625494'

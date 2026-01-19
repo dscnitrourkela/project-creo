@@ -26,7 +26,7 @@ const EventDetailsTemplate: React.FC<EventDetailsTemplateProps> = ({
 const EventDetails = () => {
   return (
     <>
-      <div>
+      <div id='event-details'>
         <div
           className='w-full relative bg-cover bg-no-repeat bg-[#030223] min-h-screen'
           style={{

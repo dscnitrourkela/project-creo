@@ -36,39 +36,35 @@ function PrizesPerksCard({ heading, isActive, onHover }: cardProps) {
       </div>
 
       <div className='px-10 py-5 h-fit'>
-        <ul style={{listStyle:"initial"}}>
-            <li>
-                <P className='flex '>
-                    <P>
-                        &#8377;45,000 total prize pool including cash prizes
-                    </P>                    
-                </P>
-            </li>
-            <li>
-                <P>
-                    Exclusive CREO 26 
-                    <b>
-                        merchandise and goodies, certificates for top 5 teams
-                    </b>
-                </P>
-            </li>
-            <li>
-                <P>
-                    <b>Social media recognition</b>
-                    on thr official Design Tab Instagram page
-                </P>
-            </li>
-            <li>
-                <P>
-                    Live online <b>interaction with senior designers</b> from top companies
-                </P>
-            </li>
-            <li>
-                <P>
-                    <b>Access to direct mentorship sessions</b>
-                    with experienced industry and many more
-                </P>
-            </li>
+        <ul style={{ listStyle: 'initial' }}>
+          <li>
+            <P className='flex '>
+              <P>&#8377;45,000 total prize pool including cash prizes</P>
+            </P>
+          </li>
+          <li>
+            <P>
+              Exclusive CREO 26
+              <b>&nbsp;merchandise and goodies, certificates for top 5 teams</b>
+            </P>
+          </li>
+          <li>
+            <P>
+              <b>Social media recognition</b>
+              &nbsp;on the official Design Tab Instagram page
+            </P>
+          </li>
+          <li>
+            <P>
+              Live online <b>interaction with senior designers</b>&nbsp;from top companies
+            </P>
+          </li>
+          <li>
+            <P>
+              <b>Access to direct mentorship sessions</b>&nbsp; with experienced industry and many
+              more
+            </P>
+          </li>
         </ul>
       </div>
     </div>
