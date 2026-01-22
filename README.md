@@ -174,6 +174,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ayantik2006"><img src="https://avatars.githubusercontent.com/u/99005057?v=4?s=100" width="100px;" alt="Ayantik Sarkar"/><br /><sub><b>Ayantik Sarkar</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-creo/commits?author=ayantik2006" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/shuvam776"><img src="https://avatars.githubusercontent.com/u/214760020?v=4?s=100" width="100px;" alt="Shuvam Satapathi"/><br /><sub><b>Shuvam Satapathi</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-creo/commits?author=shuvam776" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://ayussh.vercel.app/"><img src="https://avatars.githubusercontent.com/u/135319056?v=4?s=100" width="100px;" alt="Ayush"/><br /><sub><b>Ayush</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-creo/commits?author=ayussh-2" title="Code">💻</a></td>
     </tr>
   </tbody>
